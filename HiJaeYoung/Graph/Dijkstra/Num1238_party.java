@@ -1,4 +1,4 @@
-package HiJaeYoung.Dijkstra;
+package HiJaeYoung.Graph.Dijkstra;
 
 import java.io.BufferedReader;
 import java.io.IOException;

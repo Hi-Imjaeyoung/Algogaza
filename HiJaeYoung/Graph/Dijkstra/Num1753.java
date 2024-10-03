@@ -1,3 +1,5 @@
+package HiJaeYoung.Graph.Dijkstra;
+
 import java.io.*;
 import java.util.*;
 

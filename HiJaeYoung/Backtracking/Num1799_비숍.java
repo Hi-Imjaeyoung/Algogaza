@@ -1,4 +1,4 @@
-package HiJaeYoung;
+package HiJaeYoung.Backtracking;
 
 import java.io.BufferedReader;
 import java.io.IOException;
