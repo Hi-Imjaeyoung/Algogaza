@@ -27,11 +27,12 @@ public class Num3980선발명단 {
             stop = false;
             for(int i=0;i<11;i++){
                 st = new StringTokenizer(br.readLine());
-                list.add(new ArrayList<>());
+
                 for(int j=0;j<11;j++){
+                    if(list.size()<11) list.add(new ArrayList<>());
                     int score = Integer.parseInt(st.nextToken());
                     if(score == 0) continue;
-                    list.get(i).add(new Man(j,score));
+                    list.get(j).add(new Man(i,score));
                 }
             }
 //            for(List<Man> manList:list){
